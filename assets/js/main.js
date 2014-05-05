@@ -53,6 +53,7 @@ var sidebar = L.control.sidebar("sidebar", {
   position: "left"
 }).addTo(map);
 
+sidebar.toggle();
 /* Highlight search box text on click */
 $("#searchbox").click(function () {
   $(this).select();
